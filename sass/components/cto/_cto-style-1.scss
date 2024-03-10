@@ -1,0 +1,158 @@
+.cta-area{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 180px 0;
+    position: relative;
+    z-index: 2;
+    .overlay{
+        background: linear-gradient(0deg, rgba(31, 39, 50, 0.95) 0%, rgba(31, 39, 50, 0.95) 100%);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .bg-vector{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 722px;
+        height: 159px;
+        flex-shrink: 0;
+    }
+    .cta-contain{
+        z-index: 999;
+        .cta-info{
+            margin-bottom: 25px;
+            text-align: left;
+            h2{
+                color: #FFF;
+                font-family: "Hepta Slab";
+                font-size: 60px;
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+            p{
+                color: #FFF;
+                font-family: Jost;
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+        .items-icon-wrapper{
+            gap: 20px;
+            .cta-card-itams{
+                gap: 20px;
+                .itams-icone{
+                    width: 100px;
+                    height: 100px;
+                    border: 1px solid #CDB091;
+                    border-radius: 50px;
+                    flex-shrink: 0;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 7px;
+                    justify-content: center;
+                    align-items: center;
+                    .icon{
+                        font-size: 20px;
+                        color: #CDB091;
+                        
+                    }
+                    span{
+                        color: #FFF;
+                        font-family: "Hepta Slab";
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                    }
+                }
+                .itams-contain{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 9px;
+                    h5{
+                        color: #FFF;
+                        font-family: "Hepta Slab";
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 30px;
+                    }
+                    p{
+                        color: #FFF;
+                        font-family: Jost;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+    }
+    .shap-bg{
+        position: absolute;
+        bottom: -222px;
+        right: 0;
+        background-repeat: no-repeat;
+        width: 532px;
+        height: 821px;
+    }
+}
+.experience-part{
+    margin-top: -225px;
+    position: absolute;
+    z-index: 999;
+    right: 99px;
+    .experience-wrappers{
+        position: relative;
+        .experience-vector{
+            position: absolute;
+            width: 334px;
+            height: 73px;
+            top: 0;
+            right: 0;
+            z-index: 999;
+        }
+        .experience-wrapper{
+            background: #CDB091;
+            align-items: center;
+            gap: 25px;
+            padding: 50px 40px;
+            flex-shrink: 0;
+            .counter-part{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 25px 20px;
+                background: #1E2E3E;
+                gap: 10px;
+                border-radius: 5px;
+                span{
+                    color: var(--White, #FFF);
+                    font-family: "Hepta Slab";
+                    font-size: 60px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+            .experience-age{
+                h4{
+                    color: var(--Black, #1E2E3E);
+                    font-family: "Hepta Slab";
+                    font-size: 35px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+    
+}
